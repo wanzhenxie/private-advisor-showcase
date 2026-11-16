@@ -1,0 +1,25 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python / local databases
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+private_advisor.db
+*.sqlite*
+
+# Node / Next.js
+node_modules/
+.next/
+
+# Platform / editor
+.DS_Store
+__MACOSX/
+._*
+.vscode/
+.idea/
